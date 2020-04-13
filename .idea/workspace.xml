@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="732e4192-ac6c-4511-b395-096cc7a5c350" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GAN Experiment.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/masterAlbumList.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uris" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/albumArtDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/albumArtDownloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albumartimages/test.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,8 +120,16 @@
       <workItem from="1586580416835" duration="453000" />
       <workItem from="1586624988247" duration="7899000" />
       <workItem from="1586637936062" duration="9017000" />
-      <workItem from="1586723917625" duration="5519000" />
+      <workItem from="1586723917625" duration="5821000" />
     </task>
+    <task id="LOCAL-00001" summary="got rid of not used packages&#10;created some new functions and used them to populate csv">
+      <created>1586750288599</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586750288599</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,52 +138,68 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="got rid of not used packages&#10;created some new functions and used them to populate csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="got rid of not used packages&#10;created some new functions and used them to populate csv" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="632" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586743758627">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="632" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1586650055589" />
     <state x="632" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1586743758627" />
-    <state width="1750" height="431" key="GridCell.Tab.0.bottom" timestamp="1586750187823">
+    <state x="573" y="174" key="CommitChangelistDialog2" timestamp="1586750288199">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="573" y="174" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1586750288199" />
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom" timestamp="1586750528700">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="2" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217087" />
-    <state width="1750" height="431" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187823" />
-    <state width="1750" height="431" key="GridCell.Tab.0.center" timestamp="1586750187822">
+    <state width="1750" height="373" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528700" />
+    <state width="1750" height="373" key="GridCell.Tab.0.center" timestamp="1586750528699">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="2" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217086" />
-    <state width="1750" height="431" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187822" />
-    <state width="1750" height="431" key="GridCell.Tab.0.left" timestamp="1586750187822">
+    <state width="1750" height="373" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528699" />
+    <state width="1750" height="373" key="GridCell.Tab.0.left" timestamp="1586750528698">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="2" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217086" />
-    <state width="1750" height="431" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187822" />
-    <state width="1750" height="431" key="GridCell.Tab.0.right" timestamp="1586750187823">
+    <state width="1750" height="373" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528698" />
+    <state width="1750" height="373" key="GridCell.Tab.0.right" timestamp="1586750528700">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="2" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217087" />
-    <state width="1750" height="431" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187823" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1585712648540">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="373" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528700" />
+    <state width="1750" height="373" key="GridCell.Tab.1.bottom" timestamp="1586750528702">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585712648540" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1585712648539">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="373" key="GridCell.Tab.1.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528702" />
+    <state width="1750" height="373" key="GridCell.Tab.1.center" timestamp="1586750528701">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585712648539" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1585712648539">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="373" key="GridCell.Tab.1.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528701" />
+    <state width="1750" height="373" key="GridCell.Tab.1.left" timestamp="1586750528700">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585712648539" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1585712648539">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="373" key="GridCell.Tab.1.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528700" />
+    <state width="1750" height="373" key="GridCell.Tab.1.right" timestamp="1586750528701">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585712648539" />
+    <state width="1750" height="373" key="GridCell.Tab.1.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586750528701" />
     <state x="338" y="79" key="SettingsEditor" timestamp="1586633379705">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="338" y="79" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1586633379705" />
+    <state x="590" y="311" key="Vcs.Push.Dialog.v2" timestamp="1586750303141">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="590" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1586750303141" />
     <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586724015564">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -176,6 +207,6 @@
     <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586570223141" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled1$albumArtDownloader.coverage" NAME="albumArtDownloader Coverage Results" MODIFIED="1586744861829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled1$albumArtDownloader.coverage" NAME="albumArtDownloader Coverage Results" MODIFIED="1586750453147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

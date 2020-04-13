@@ -30,7 +30,7 @@ def saveAlbumArt(albumName, linkToImage, path = 'albumartimages/'):
 
 # given a  dictionary, go through each entry and get the links to the images and download them into the specified folder
 def getAndSaveAlbumArts(dictionary, path = 'albumartimages/'):
-    if():
+
     for link in dictionary:
         fileName = link + ".jpg"
         fileName = fileName.replace(r'/', ' ')
