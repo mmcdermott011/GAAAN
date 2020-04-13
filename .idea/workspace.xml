@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="732e4192-ac6c-4511-b395-096cc7a5c350" name="Default Changelist" comment="" />
+    <list default="true" id="732e4192-ac6c-4511-b395-096cc7a5c350" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GAN Experiment.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/masterAlbumList.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uris" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albumArtDownloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/albumArtDownloader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albumartimages/test.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +24,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="ac8d4d3a-7707-4cc5-ae32-833afea69f46" />
   <component name="ProjectId" id="1ZsXZYkh10zxfKKfnHS8iTjHIrF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +37,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="albumArtDownloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -86,29 +102,53 @@
       <workItem from="1585885404643" duration="1010000" />
       <workItem from="1585981018120" duration="1428000" />
       <workItem from="1586019053192" duration="203000" />
+      <workItem from="1586033333233" duration="458000" />
+      <workItem from="1586147198305" duration="778000" />
+      <workItem from="1586198865414" duration="256000" />
+      <workItem from="1586319248313" duration="1333000" />
+      <workItem from="1586489918130" duration="67000" />
+      <workItem from="1586492001827" duration="193000" />
+      <workItem from="1586541347848" duration="3549000" />
+      <workItem from="1586570222584" duration="8610000" />
+      <workItem from="1586580416835" duration="453000" />
+      <workItem from="1586624988247" duration="7899000" />
+      <workItem from="1586637936062" duration="9017000" />
+      <workItem from="1586723917625" duration="5519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585982642957">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="632" y="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586743758627">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585982642957" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1585982642956">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="632" y="370" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1586650055589" />
+    <state x="632" y="385" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1792.1097@0.23.1792.1097" timestamp="1586743758627" />
+    <state width="1750" height="431" key="GridCell.Tab.0.bottom" timestamp="1586750187823">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585982642956" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1585982642955">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="2" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217087" />
+    <state width="1750" height="431" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187823" />
+    <state width="1750" height="431" key="GridCell.Tab.0.center" timestamp="1586750187822">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585982642955" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1585982642957">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="2" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217086" />
+    <state width="1750" height="431" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187822" />
+    <state width="1750" height="431" key="GridCell.Tab.0.left" timestamp="1586750187822">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585982642957" />
+    <state width="1750" height="2" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217086" />
+    <state width="1750" height="431" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187822" />
+    <state width="1750" height="431" key="GridCell.Tab.0.right" timestamp="1586750187823">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1750" height="2" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586664217087" />
+    <state width="1750" height="431" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1586750187823" />
     <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1585712648540">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -125,17 +165,17 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585712648539" />
-    <state x="338" y="79" key="SettingsEditor" timestamp="1585982276881">
+    <state x="338" y="79" key="SettingsEditor" timestamp="1586633379705">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="338" y="79" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1585982276881" />
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586033341581">
+    <state x="338" y="79" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1586633379705" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1586724015564">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586033341581" />
-    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586020648124" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586724015564" />
+    <state x="573" y="392" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1586570223141" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/untitled1$albumArtDownloader.coverage" NAME="albumArtDownloader Coverage Results" MODIFIED="1585982642948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled1$albumArtDownloader.coverage" NAME="albumArtDownloader Coverage Results" MODIFIED="1586744861829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
