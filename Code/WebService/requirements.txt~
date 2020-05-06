@@ -1,0 +1,7 @@
+Flask==1.1.2
+gunicorn==20.0.4
+setuptools=y==41.0.0
+matplotlib
+Pillow
+keras
+tensorflow
