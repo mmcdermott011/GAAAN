@@ -11,8 +11,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 
 # establish api token credentials
-clientID = "296f3ecbec394f5caab0198f4684ed95"
-secret = keyring.get_password("spotify","296f3ecbec394f5caab0198f4684ed95")
+clientID = "YOUR_PUBLIC_KEY"
+secret = keyring.get_password("spotify","YOUR_SECRET_KEY")
 # create credentials object
 creds = SpotifyClientCredentials(client_id=clientID, client_secret=secret)
 
