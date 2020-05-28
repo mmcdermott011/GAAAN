@@ -11,6 +11,7 @@ re=implementing the user interface of the web service.
 <img src="https://github.com/mmcdermott011/GAAAN/raw/master/images/metal_training.gif" width="500"/>
 * **Current Output**
 <img src="https://github.com/mmcdermott011/GAAAN/raw/master/images/metal_34k.png" width="500"/>
+
 ## GETTING STARTED
 
 ### Running The Web Service
@@ -21,7 +22,7 @@ re=implementing the user interface of the web service.
 * ``` python3 main.py ```
 
 ### Making Your Own Training Dataset
-* You sign up for a spotify developers credential here:
+* You sign up for a spotify developers credential here: https://developer.spotify.com/console/
 * Use the albumArtDownloader.py to scrape Spotify and save a csv file with the artists info and weblinks to their album art covers
      - THIS DOES NOT ACTUALLY DOWNLOAD THE IMAGES.
 * Use DataSetAnalysis.ipynb to load the masterAlbumList.csv and check for duplicates, make smaller subsets.
