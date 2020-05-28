@@ -1,5 +1,5 @@
 # GAAAN
-GAAAN is a Generative Album Art Adversarial network that uses the DCGAN architecture to generate unique music album-art images.
+GAAAN is a Generative Album Art Adversarial Network that uses the DCGAN architecture to generate unique music album-art images.
 This repository contains folders for acquiring the data, training the GAN, and deploying the GAN with a Flask webserver.
 ### Future Iterations
 The plan is to experiment more with training and different architectures to produce more detailed results as well as 
@@ -9,7 +9,8 @@ re=implementing the user interface of the web service.
 
 * **Training Output**
 <img src="https://github.com/mmcdermott011/GAAAN/raw/master/images/metal_training.gif" width="500"/>
-* **Current Output**
+
+* **Output Examples**
 <img src="https://github.com/mmcdermott011/GAAAN/raw/master/images/metal_34k.png" width="500"/>
 
 ## GETTING STARTED
