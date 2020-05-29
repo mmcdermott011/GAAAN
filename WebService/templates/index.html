@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+form { 
+margin: 0 auto; 
+width:550px;
+text-align: center;
+}
+text-align: center;
+</style>
+    <meta charset="UTF-8">
+<title>Deep Learning Project</title>
+</head>
+<body>
+  <h1 style="text-align:center">Welcome to the Deep Learning album cover generator!</h1>
+  <h2 style="text-align:center" >Type in Metal or EDM to generate your album image!</h2>
+  <form action = "/generate_image" method = "POST">
+    <label for="genre"><h2>Genre</h2></label><br>
+    <input type="text" id="genre" name="genre" size="50" value="EDM/Metal"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

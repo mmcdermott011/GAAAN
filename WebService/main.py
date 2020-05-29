@@ -3,13 +3,7 @@
 '''
 from flask import Flask, url_for, request, render_template, Response, send_file
 from string import Template
-from matplotlib import pyplot as plt, gridspec as gridspec
-from keras import Sequential, Input, Model
-from keras.layers import Dense, Conv2D, LeakyReLU, Dropout, ZeroPadding2D, BatchNormalization, Flatten, Activation, \
-    UpSampling2D, Reshape
-from keras.optimizers import Adam
-from keras.utils import plot_model
-from keras.utils import model_to_dot
+from matplotlib import pyplot as plt
 from tensorflow.keras.models import load_model
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
@@ -17,10 +11,7 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 '''
   Libraries
 '''
-import keras.utils as utils
 import numpy as np
-import os
-import glob
 import io
 import logging
 
@@ -56,14 +47,18 @@ Generator = load_model("./models/138_GENERATOR_weights_and_arch.hdf5")
 
 
 # Driver
-def driver():
+def driver(choice):
     global Generator
-    global BATCH_SIZE, NOISE_SIZE
     app.logger.info('\n\n\n\tDriver\n\n\n')
-    noise = np.random.normal(0, 1, (BATCH_SIZE, NOISE_SIZE))
+    if (choice == 1):
+        noise = np.random.normal(0, 1, (32, 100))
+    if (choice == 0):
+        noise = np.random.normal(0, 1, (32, 128))
     Image = Generator.predict(noise)
+    imgplt = plt.imshow(Image[0])
     img = (Image[0]+1)*127.5
     img = img.astype(np.uint8)
+    imgplt = plt.imshow(img)
     plt.savefig('./static/plot.png')
     fig = plt.figure(figsize=(12, 8))
     output = io.BytesIO()
@@ -82,31 +77,28 @@ def index():
 def handle_data():
     if request.method == 'POST':
         global Generator
-        global BATCH_SIZE, NOISE_SIZE
+        choice = 0
         # get data via html
         genre = request.form['genre']
         result = str(genre).casefold()
-        app.logger.info('\n\t\t*************Re- '+result)
         if(result == 'metal'):
             Generator = load_model("./models/metal_generator.hdf5")
-            BATCH_SIZE = 32
-            NOISE_SIZE = 128
-            app.logger.info('\n\n\n\nMetal Loaded\n\n\n')
+            choice = 0
+            app.logger.info('\n\nMetal Loaded\n\n')
         if(result == 'edm'):
             Generator = load_model("./models/edm_generator.hdf5")
-            BATCH_SIZE = 32
-            NOISE_SIZE = 128
-            app.logger.info('\n\n\n\nEDM Loaded\n\n\n')
+            choice = 0
+            app.logger.info('\n\nEDM Loaded\n\n')
         else:
-            BATCH_SIZE = 32
-            NOISE_SIZE = 128
+            choice = 1
             Generator = load_model("./models/138_GENERATOR_weights_and_arch.hdf5")
+            app.logger.info('\n\nGeneral Loaded\n\n')
 
         # gan code
-        driver()
+        driver(choice)
 
         # web page code
-        return send_file('./static/plot.png', mimetype='image/gif')
+        return send_file('./static/plot.png', mimetype='image/png')
 
 
 if __name__ == '__main__':
