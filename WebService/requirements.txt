@@ -1,6 +1,6 @@
 Flask==2.3.2
 gunicorn==22.0.0
-setuptools==65.5.1
+setuptools==70.0.0
 matplotlib
 Pillow
 keras==2.3.1
