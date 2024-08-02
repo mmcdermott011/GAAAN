@@ -3,5 +3,5 @@ gunicorn==22.0.0
 setuptools==65.5.1
 matplotlib
 Pillow
-keras==2.3.1
+keras==2.13.1
 tensorflow
